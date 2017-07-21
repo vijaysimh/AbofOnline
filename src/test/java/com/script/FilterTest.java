@@ -1,4 +1,4 @@
-package com.scripts;
+package com.script;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -9,7 +9,7 @@ import com.pages.LoginPage;
 import com.pages.ProductPage;
 import com.pages.filterpage;
 
-public class FilterTest extens BaseClass {
+public class FilterTest extends BaseClass {
 	
 	
 	LoginPage loginpage;
