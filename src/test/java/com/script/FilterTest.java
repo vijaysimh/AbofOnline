@@ -9,7 +9,7 @@ import com.pages.LoginPage;
 import com.pages.ProductPage;
 import com.pages.filterpage;
 
-public class FilterTest extends BaseClass {
+public class FilterTest extens BaseClass {
 	
 	
 	LoginPage loginpage;
