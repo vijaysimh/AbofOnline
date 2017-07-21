@@ -1,4 +1,4 @@
-package com.script;
+package com.scripts;
 
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
