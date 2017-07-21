@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.script.LocateElementAndClick">
+      <class name="com.script.FilterTest">
         <methods>
-          <include name="teardown"/>
-          <include name="LocateElementAndClick"/>
+          <include name="handleRadioButton"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.script.LocateElementAndClick -->
+      </class> <!-- com.script.FilterTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
