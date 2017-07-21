@@ -3,6 +3,29 @@
   <groupId>com.abof</groupId>
   <artifactId>Abof</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+<build>
+  <plugins>
+   <plugin>
+      <groupId>org.sample</groupId>
+      <artifactId>sample-annotation-processor</artifactId>
+      <version>1.2.3</version>
+      <inherited>true</inherited>
+      <configuration>
+      <suiteXmlFiles>
+         <suiteXmlFile>testng_regression.xml</suiteXmlFile>
+      </suiteXmlFiles>
+      </configuration>
+   </plugin>  
+   <plugin>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>3.3</version>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+   </plugin>
+  </plugins>
+</build>  
     <dependencies>
   	<dependency>
   		<groupId>io.appium</groupId>
@@ -65,5 +88,5 @@
 	    <artifactId>slf4j-api</artifactId>
 	    <version>1.7.25</version>
 	</dependency>
-  </dependencies>
+    </dependencies>
 </project>
