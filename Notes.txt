@@ -1,4 +1,5 @@
 adb devices
 
-adb -s ba0bfc7a tcpip 5555
+adb -s [device name] tcpip 5555
 
+adb [device name] tcpip 5555
