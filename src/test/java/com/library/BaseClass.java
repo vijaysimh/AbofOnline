@@ -53,7 +53,7 @@ public class BaseClass {
 		Capabilities.setCapability("appPackage",GenericClass.getdataproperties("AppPackage")); 
 		Capabilities.setCapability("appActivity",GenericClass.getdataproperties("AppActivity"));*/
 
-		driver=new AndroidDriver(new URL("http://127.0.0.1:"+port+"/wd/hub"), Capabilities);
+		driver=new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), Capabilities);
 		NXGReports.setWebDriver(driver);
 		}catch(Exception e){
 		e.printStackTrace();
