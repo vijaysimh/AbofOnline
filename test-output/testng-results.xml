@@ -2,24 +2,23 @@
 <testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37" started-at="2017-07-24T06:59:54Z" finished-at="2017-07-24T06:59:54Z">
+  <suite name="Default suite" duration-ms="28" started-at="2017-07-24T07:00:29Z" finished-at="2017-07-24T07:00:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37" started-at="2017-07-24T06:59:54Z" finished-at="2017-07-24T06:59:54Z">
+    <test name="Default test" duration-ms="28" started-at="2017-07-24T07:00:29Z" finished-at="2017-07-24T07:00:29Z">
       <class name="com.script.FilterTest">
-        <test-method status="FAIL" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.script.FilterTest@25bbe1b6]" name="setup" is-config="true" duration-ms="0" started-at="2017-07-24T12:29:54Z" finished-at="2017-07-24T12:29:54Z">
+        <test-method status="FAIL" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.script.FilterTest@1ed4004b]" name="setup" is-config="true" duration-ms="0" started-at="2017-07-24T12:30:29Z" finished-at="2017-07-24T12:30:29Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
-Parameter 'port' is required by @Configuration on method setup but has not been marked @Optional or defined
-in C:\Users\Vijay\AppData\Local\Temp\testng-eclipse--1770420995\testng-customsuite.xml]]>
+Method setup requires 4 parameters but 0 were supplied in the @Configuration annotation.]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
-Parameter 'port' is required by @Configuration on method setup but has not been marked @Optional or defined
-in C:\Users\Vijay\AppData\Local\Temp\testng-eclipse--1770420995\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+Method setup requires 4 parameters but 0 were supplied in the @Configuration annotation.
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:191)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:127)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:376)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
 	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:197)
 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
@@ -47,7 +46,7 @@ in C:\Users\Vijay\AppData\Local\Temp\testng-eclipse--1770420995\testng-customsui
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="handleRadioButton()[pri:1, instance:com.script.FilterTest@25bbe1b6]" name="handleRadioButton" duration-ms="20" started-at="2017-07-24T12:29:54Z" description="Login to aBOF APPLICATION AND handle radio button" finished-at="2017-07-24T12:29:54Z">
+        <test-method status="SKIP" signature="handleRadioButton()[pri:1, instance:com.script.FilterTest@1ed4004b]" name="handleRadioButton" duration-ms="0" started-at="2017-07-24T12:30:29Z" description="Login to aBOF APPLICATION AND handle radio button" finished-at="2017-07-24T12:30:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handleRadioButton -->
