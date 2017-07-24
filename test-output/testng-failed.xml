@@ -6,6 +6,7 @@
       <class name="com.script.FilterTest">
         <methods>
           <include name="handleRadioButton"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- com.script.FilterTest -->
     </classes>
