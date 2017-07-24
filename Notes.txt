@@ -3,3 +3,6 @@ adb devices
 adb -s [device name] tcpip 5555
 
 adb [device name] tcpip 5555
+
+adb connect [device ipaddress] -- Status from Settings 192.168.1.1
+
