@@ -1,0 +1,4 @@
+adb devices
+
+adb -s ba0bfc7a tcpip 5555
+
