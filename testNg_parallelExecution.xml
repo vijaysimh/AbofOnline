@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Somke" parallel="tests" thread-count="1">
 <listeners>
-<listener class-name="com.libarary.MyNXGTestListner"></listener>
+<listener class-name="com.library.MyNXGTestListner"></listener>
 </listeners>
   <test name="Sanity1">
  <parameter name="port" value="4723" />

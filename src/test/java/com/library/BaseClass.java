@@ -30,7 +30,7 @@ public class BaseClass {
 	@org.testng.annotations.Parameters({ "port", "deviceName", "platformVersion","udid"})
 	
 	@BeforeMethod
-	public void setup(){
+	public void setup(String port,String deviceName,String platformVersion,String udid){
 		try{
 		
 		Capabilities=new DesiredCapabilities();
