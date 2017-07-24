@@ -14,15 +14,14 @@
     </classes>
   </test> <!-- Default test -->
   
-  <!--  <test name="Sanity2" >
- <parameter name="port" value="4725" />
-		<parameter name="udid" value="G5AXB727E236P4Z" />
-		<parameter name="deviceName" value="G5AXB727E236P4Z" />
-		<parameter name="platformVersion" value="6.0.1" />
+   <test name="Sanity2" >
+ <parameter name="port" value="4723" />
+		<parameter name="udid" value="0019bf2b5b742f" />
+		<parameter name="deviceName" value="0019bf2b5b742f" />
+		<parameter name="platformVersion" value="4.1.2" />
     <classes>
       <class name="com.script.FilterTest"/>
-      <class name="com.script.ToastMessage"/>
     </classes>
-  </test> Default test -->
+  </test> <!-- Default test -->
  
 </suite> <!-- Default suite -->

@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,7 +37,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Somke">
-              <span class="suite-name border-failed">Somke</span>
+              <span class="suite-name border-passed">Somke</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -90,21 +90,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Somke" class="hide-methods failed suite-Somke"> (hide)</a> <!-- hide-methods failed suite-Somke -->
-                      <a href="#" panel-name="suite-Somke" class="show-methods failed suite-Somke"> (show)</a> <!-- show-methods failed suite-Somke -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Somke" class="hide-methods passed suite-Somke"> (hide)</a> <!-- hide-methods passed suite-Somke -->
+                      <a href="#" panel-name="suite-Somke" class="show-methods passed suite-Somke"> (show)</a> <!-- show-methods passed suite-Somke -->
                     </span>
-                    <div class="method-list-content failed suite-Somke">
+                    <div class="method-list-content passed suite-Somke">
                       <span>
-                        <img width="3%" src="failed.png"/>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Somke" title="com.script.ToastMessage" hash-for-method="verifYToastMessage">verifYToastMessage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content failed suite-Somke -->
+                    </div> <!-- method-list-content passed suite-Somke -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -116,9 +116,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Somke" class="panel Somke">
-          <div class="suite-Somke-class-failed">
+          <div class="suite-Somke-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.script.ToastMessage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -127,24 +127,12 @@
                   <a name="verifYToastMessage">
                   </a> <!-- verifYToastMessage -->
                   <span class="method-name">verifYToastMessage</span>
-                  <div class="stack-trace">java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
-	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
-	at java.util.ArrayList.get(ArrayList.java:429)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
-	at com.sun.proxy.$Proxy8.get(Unknown Source)
-	at com.script.ToastMessage.verifYToastMessage(ToastMessage.java:29)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-	at java.lang.Thread.run(Thread.java:745)
-... Removed 20 stack frames
-</div> <!-- stack-trace -->
                   <em>
 (Login to abof application and verify the Toast MEESAGE)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Somke-class-failed -->
+          </div> <!-- suite-Somke-class-passed -->
         </div> <!-- panel Somke -->
         <div panel-name="test-xml-Somke" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -208,12 +196,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifYToastMessage')
 data.setCell(0, 2, 'com.script.ToastMessage')
-data.setCell(0, 3, 30385);
+data.setCell(0, 3, 54108);
 window.suiteTableData['Somke']= { tableData: data, tableDiv: 'times-div-Somke'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <span class="suite-total-time">Total running time: 54 seconds</span>
               <div id="times-div-Somke">
               </div> <!-- times-div-Somke -->
             </div> <!-- times-div -->
@@ -224,12 +212,6 @@ return data;
             <span class="header-content">Reporter output for Somke</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">verifYToastMessage</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">STEP1</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Somke" class="panel">
@@ -251,10 +233,8 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">verifYToastMessage</span>
-                <span class="method-start">41555 ms</span>
+                <span class="method-start">11596 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
