@@ -32,5 +32,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Vijay/Desktop/NxgReport/NxgReport/customizer.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Vijay/Desktop/NxgReport/NxgReport/NXGReport.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
