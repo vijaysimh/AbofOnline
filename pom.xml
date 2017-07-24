@@ -34,14 +34,14 @@
                 <id>install-external</id>
                 <phase>clean</phase>
                 <configuration>
-                    <file>${basedir}/Jars/NXGReport.jar</file>
+                    <file>/Jars/NXGReport.jar</file>
                     <repositoryLayout>default</repositoryLayout>
                     <groupId>com.mylib</groupId>
                     <artifactId>NXGReport</artifactId>
                     <version>0.0.1</version>
                     <packaging>jar</packaging>
                     <generatePom>true</generatePom>
-                    <file>${basedir}/Jars/customizer.jar</file>
+                    <file>/Jars/customizer.jar</file>
                     <repositoryLayout>default</repositoryLayout>
                     <groupId>com.mylib</groupId>
                     <artifactId>customizer</artifactId>

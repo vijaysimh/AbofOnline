@@ -127,16 +127,17 @@
                   <a name="verifYToastMessage">
                   </a> <!-- verifYToastMessage -->
                   <span class="method-name">verifYToastMessage</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy7.sendKeys(Unknown Source)
-	at com.script.ToastMessage.verifYToastMessage(ToastMessage.java:20)
+                  <div class="stack-trace">java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+	at java.util.ArrayList.rangeCheck(ArrayList.java:653)
+	at java.util.ArrayList.get(ArrayList.java:429)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:39)
+	at com.sun.proxy.$Proxy8.get(Unknown Source)
+	at com.script.ToastMessage.verifYToastMessage(ToastMessage.java:29)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
 	at java.lang.Thread.run(Thread.java:745)
-... Removed 16 stack frames
+... Removed 20 stack frames
 </div> <!-- stack-trace -->
                   <em>
 (Login to abof application and verify the Toast MEESAGE)                  </em>
@@ -158,7 +159,7 @@
     &lt;listener class-name=&quot;com.library.MyNXGTestListner&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test name=&quot;Sanity1&quot;&gt;
-    &lt;parameter name=&quot;port&quot; value=&quot;4723&quot;/&gt;
+    &lt;parameter name=&quot;port&quot; value=&quot;4725&quot;/&gt;
     &lt;parameter name=&quot;platformVersion&quot; value=&quot;5.1.1&quot;/&gt;
     &lt;parameter name=&quot;udid&quot; value=&quot;ba0bfc7a&quot;/&gt;
     &lt;parameter name=&quot;deviceName&quot; value=&quot;ba0bfc7a&quot;/&gt;
@@ -207,12 +208,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifYToastMessage')
 data.setCell(0, 2, 'com.script.ToastMessage')
-data.setCell(0, 3, 133);
+data.setCell(0, 3, 30385);
 window.suiteTableData['Somke']= { tableData: data, tableDiv: 'times-div-Somke'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 133 ms</span>
+              <span class="suite-total-time">Total running time: 30 seconds</span>
               <div id="times-div-Somke">
               </div> <!-- times-div-Somke -->
             </div> <!-- times-div -->
@@ -246,14 +247,14 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.script.ToastMessage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setup(4723, ba0bfc7a, 5.1.1, ba0bfc7a)</span>
+                <span class="method-name">setup(4725, ba0bfc7a, 5.1.1, ba0bfc7a)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifYToastMessage</span>
-                <span class="method-start">3189 ms</span>
+                <span class="method-start">41555 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
