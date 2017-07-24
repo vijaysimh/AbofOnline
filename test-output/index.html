@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Vijay\AppData\Local\Temp\testng-eclipse--1292755678\testng-customsuite.xml</span>
+                    <span>C:\Users\Vijay\AppData\Local\Temp\testng-eclipse-1120289215\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -101,7 +101,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.script.FilterTest" hash-for-method="handleRadioButton">handleRadioButton</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.script.TC1_PLP" hash-for-method="TC1_PLP">TC1_PLP</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -119,19 +119,19 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.script.FilterTest</span>
+              <span class="class-name">com.script.TC1_PLP</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="handleRadioButton">
-                  </a> <!-- handleRadioButton -->
-                  <span class="method-name">handleRadioButton</span>
+                  <a name="TC1_PLP">
+                  </a> <!-- TC1_PLP -->
+                  <span class="method-name">TC1_PLP</span>
                   <div class="stack-trace">java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy6.click(Unknown Source)
-	at com.script.FilterTest.handleRadioButton(FilterTest.java:39)
+	at com.sun.proxy.$Proxy7.sendKeys(Unknown Source)
+	at com.script.TC1_PLP.TC1_PLP(TC1_PLP.java:40)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -158,8 +158,6 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 
 </div> <!-- stack-trace -->
-                  <em>
-(Login to aBOF APPLICATION AND handle radio button)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -167,7 +165,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Vijay\AppData\Local\Temp\testng-eclipse--1292755678\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Vijay\AppData\Local\Temp\testng-eclipse-1120289215\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -176,7 +174,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.script.FilterTest&quot;/&gt;
+      &lt;class name=&quot;com.script.TC1_PLP&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -218,14 +216,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'handleRadioButton')
-data.setCell(0, 2, 'com.script.FilterTest')
-data.setCell(0, 3, 5111);
+data.setCell(0, 1, 'TC1_PLP')
+data.setCell(0, 2, 'com.script.TC1_PLP')
+data.setCell(0, 3, 182);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 182 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -251,7 +249,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.script.FilterTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.script.TC1_PLP</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
@@ -259,9 +257,15 @@ return data;
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">handleRadioButton</span>
-                <span class="method-start">3101 ms</span>
+                <span class="method-name">TC1_PLP</span>
+                <span class="method-start">3426 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">teardown</span>
+                <span class="method-start">3624 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
