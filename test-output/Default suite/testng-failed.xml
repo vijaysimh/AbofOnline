@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.script.TC1_PLP">
+      <class name="com.script.FilterTest">
         <methods>
-          <include name="TC1_PLP"/>
-          <include name="teardown"/>
-          <include name="setup"/>
+          <include name="handleRadioButton"/>
         </methods>
-      </class> <!-- com.script.TC1_PLP -->
+      </class> <!-- com.script.FilterTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -27,7 +27,7 @@ public class BaseClass {
 		System.out.println(sDirpath);
 	}*/
 	
-	@org.testng.annotations.Parameters({ "port", "deviceName", "platformVersion","udid"})
+	//@org.testng.annotations.Parameters({ "port", "deviceName", "platformVersion","udid"})
 	
 	@BeforeMethod
 	public void setup(String port,String deviceName,String platformVersion,String udid){
@@ -35,7 +35,7 @@ public class BaseClass {
 		
 		Capabilities=new DesiredCapabilities();
 		
-/*		Capabilities.setCapability("automationName",GenericClass.getdataproperties("AUTOMATIONNAME"));
+		Capabilities.setCapability("automationName",GenericClass.getdataproperties("AUTOMATIONNAME"));
 		Capabilities.setCapability("platformName",GenericClass.getdataproperties("PLTFORMNAME"));
 		Capabilities.setCapability("deviceName",GenericClass.getdataproperties("DEVICENAME"));
 		Capabilities.setCapability("platformVersion",GenericClass.getdataproperties("PLTFORMVESION"));
@@ -43,15 +43,15 @@ public class BaseClass {
 		Capabilities.setCapability("appPackage",GenericClass.getdataproperties("AppPackage")); 
 		Capabilities.setCapability("appActivity",GenericClass.getdataproperties("AppActivity"));
 
-		driver=new AndroidDriver(new URL(GenericClass.getdataproperties("APPIUMSERVERURL")), Capabilities);*/
-		Capabilities.setCapability("automationName",GenericClass.getdataproperties("AUTOMATIONNAME"));
+		driver=new AndroidDriver(new URL(GenericClass.getdataproperties("APPIUMSERVERURL")), Capabilities);
+	/*	Capabilities.setCapability("automationName",GenericClass.getdataproperties("AUTOMATIONNAME"));
 		Capabilities.setCapability("platformName",GenericClass.getdataproperties("PLTFORMNAME"));
 		Capabilities.setCapability("deviceName",deviceName);
 		Capabilities.setCapability("platformVersion",platformVersion);
 		Capabilities.setCapability("app",apkfilepath );
 		Capabilities.setCapability("udid",udid);
 		Capabilities.setCapability("appPackage",GenericClass.getdataproperties("AppPackage")); 
-		Capabilities.setCapability("appActivity",GenericClass.getdataproperties("AppActivity"));
+		Capabilities.setCapability("appActivity",GenericClass.getdataproperties("AppActivity"));*/
 
 		driver=new AndroidDriver(new URL("http://127.0.0.1:"+port+"/wd/hub"), Capabilities);
 		NXGReports.setWebDriver(driver);

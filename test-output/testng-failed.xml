@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Somke]" parallel="tests">
-  <parameter name="port" value="4723"/>
-  <parameter name="platformVersion" value="4.1.2"/>
-  <parameter name="udid" value="0019bf2b5b742f"/>
-  <parameter name="deviceName" value="0019bf2b5b742f"/>
-  <listeners>
-    <listener class-name="com.library.MyNXGTestListner"/>
-  </listeners>
-  <test name="Sanity2(failed)" parallel="tests">
-    <parameter name="port" value="4723"/>
-    <parameter name="platformVersion" value="4.1.2"/>
-    <parameter name="udid" value="0019bf2b5b742f"/>
-    <parameter name="deviceName" value="0019bf2b5b742f"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="com.script.FilterTest">
         <methods>
           <include name="handleRadioButton"/>
-          <include name="setup"/>
         </methods>
       </class> <!-- com.script.FilterTest -->
     </classes>
-  </test> <!-- Sanity2(failed) -->
-</suite> <!-- Failed suite [Somke] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
